@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Zachary Pennington’s web development portfolio, featuring coursework in JavaScript, API integration, and responsive web design.">
+  <title>Zachary Pennington | Web Developer</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body id="top">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="wordmark" href="#top" aria-label="Zachary Pennington, home">ZP<span>.</span></a>
+      <nav aria-label="Main navigation">
+        <a href="#work">Projects</a>
+        <a href="#about">About</a>
+        <a href="https://github.com/Zacharyatom">GitHub</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="wrap intro" aria-labelledby="name">
+      <p class="eyebrow"><span class="dot" aria-hidden="true"></span> Web developer portfolio</p>
+      <h1 id="name">Zachary<br>Pennington<span>.</span></h1>
+      <p class="intro-copy">My coursework spans JavaScript, ASP.NET MVC, and SQL. These two projects show how I’ve used APIs, worked with browser storage, and built responsive websites.</p>
+      <a class="button" href="#work">Explore my projects <span aria-hidden="true">↓</span></a>
+    </section>
+
+    <section id="work" class="work" aria-labelledby="work-heading">
+      <div class="wrap">
+        <p class="eyebrow">From my web development coursework</p>
+        <h2 id="work-heading">Selected projects</h2>
+        <div class="projects">
+          <article class="card">
+            <div class="card-media horror-media">
+              <span class="project-number" aria-hidden="true">01 / API integration</span>
+              <img src="./public/projects/ghost-marker.png" alt="Custom ghost marker used on the project's map" loading="lazy">
+            </div>
+            <div class="card-body">
+              <p class="eyebrow">JavaScript application</p>
+              <h3>Horror Movie Explorer</h3>
+              <p>A browser app for discovering horror movies and submitting recommendations.</p>
+              <ul class="details">
+                <li>Fetches movie data from TMDB and caches results in browser storage to reduce repeat requests.</li>
+                <li>Validates recommendations and uses geolocation and custom ghost markers on a Google Maps view.</li>
+              </ul>
+              <ul class="tags" aria-label="Technologies">
+                <li>JavaScript</li><li>TMDB API</li><li>Google Maps</li><li>Local Storage</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-media gaming-media">
+              <span class="project-number" aria-hidden="true">02 / Responsive design</span>
+              <img src="./public/projects/floor-above.jpg" alt="The Floor Above gameplay thumbnail from ZacharyAtom Gaming" loading="lazy">
+            </div>
+            <div class="card-body">
+              <p class="eyebrow">Six-page website</p>
+              <h3>ZacharyAtom Gaming</h3>
+              <p>A site for my gaming channel with dedicated pages for videos, game categories, and streaming gear.</p>
+              <ul class="details">
+                <li>Uses a shared navigation layout with a JavaScript menu toggle for smaller screens.</li>
+                <li>Validates input on the contact page and demonstrates a submission entirely in the browser.</li>
+              </ul>
+              <ul class="tags" aria-label="Technologies">
+                <li>HTML</li><li>CSS</li><li>JavaScript</li><li>Form validation</li>
+              </ul>
+              <div class="project-links">
+                <a href="https://zpennington-nwtc.github.io/final-project-portfolio/">Live demo <span aria-hidden="true">↗</span></a>
+                <a href="https://github.com/ZPennington-NWTC/final-project-portfolio">Source code <span aria-hidden="true">↗</span></a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="wrap about" aria-labelledby="about-heading">
+      <div>
+        <p class="eyebrow">About me</p>
+        <h2 id="about-heading">From the interface to the database.</h2>
+        <p>I studied web development at Northeast Wisconsin Technical College. Along with the front-end work shown here, I’ve built ASP.NET MVC projects and studied database design and SQL.</p>
+      </div>
+      <dl class="skills">
+        <div><dt>Front end</dt><dd>HTML, CSS, Sass, JavaScript</dd></div>
+        <div><dt>Back end</dt><dd>C#, ASP.NET MVC, Python</dd></div>
+        <div><dt>Data</dt><dd>SQL, relational database design</dd></div>
+      </dl>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <span>Zachary Pennington</span>
+      <a href="https://github.com/Zacharyatom">Personal GitHub <span aria-hidden="true">↗</span></a>
+      <a href="https://github.com/ZPennington-NWTC">Coursework GitHub <span aria-hidden="true">↗</span></a>
+    </div>
+  </footer>
+</body>
+</html>
